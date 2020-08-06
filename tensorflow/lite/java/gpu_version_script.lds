@@ -5,6 +5,9 @@ VERS_1.0 {
     JNI_OnLoad;
     JNI_OnUnload;
     TfLiteGpu*;
+    *TfLite*;
+    *tflite*;
+    *TFL_*;
 
   # Hide everything else.
   local:
